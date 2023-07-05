@@ -1,0 +1,25 @@
+ActianDBTInt:
+  outputs:
+
+    dev:
+      type: ingres
+      threads: 1
+      host: ukeg-bidb66.actian.com
+      port: 29096
+      user: dbtuser
+      pass: dbtuser
+      database: iidbdb
+      schema: dbtuser
+      
+    prod:
+      type: ingres
+      threads: 1
+      host: ukeg-bidb66.actian.com
+      port: 29096
+      user: dbtuser
+      pass: dbtuser
+      database: iidbdb
+      schema: dbtuser
+      
+  target: dev
+
